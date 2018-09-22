@@ -1,59 +1,78 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Javascript Quiz Board</title>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/scripts.js"></script>
-  </head>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+
+
+<head>
+
   <body>
-<div class="container">
+    <div class='container'><meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<h1>WELCOME TO OUR AFTER-SCHOOL COMPUTER CLUB QUIZ<h1> <br>
-  <div class="about">
-    <form class="" action="index.html" method="post">
-      <label for="name">First Name</label>
-      <input type="text" name="first name"required>
-      <label for="name">Second Name</label>
-      <input type="text" name="second name"required>
-      <label for="name">Other Names</label>
-      <input type="text" name="other names">
-      <label for="name">Contact</label>
-      <input type="text" name="contact"required>
+
+      <h1>JavaScript quiz board</h1>
+
+      <form id='questions'>
+        <div id='questionOne'>
+          <div class='question'>1. What outcome do you get in javascript after dividing a number by zero?</div>
+          <div class='answer'>
+            <input type="radio" name='questionOneAnswer' value='NaN'>NaN
+          </div>
+          <div class='answer'>
+            <input type="radio" name='questionOneAnswer' value='infinity'>infinity
+          </div>
+          <div class='answer'>
+            <input type="radio" name='questionOneAnswer' value='zero'>zero
+          </div>
+        </div>
+
+        <div id='questionTwo'>
+          <div class='question'>2. Which varieble is  correct?</div>
+          <div class='answer'>
+            <input type="radio" name='questionTwoAnswer' value='firstName'>firstName
+          </div>
+          <div class='answer'>
+            <input type="radio" name='questionTwoAnswer' value='First Name'>First Name
+          </div>
+          <div class='answer'>
+            <input type="radio" name='questionTwoAswer' value='FIRSTname'>FIRSTname
+          </div>
+        </div>
+
+        <div id='questionThree'>
+          <div class='question'>3. Which one of the following is not a datatype?</div>
+          <div class='answer'>
+            <input type="radio" name='questionThreeAnswer' value='vowels'>vowels
+          </div>
+          <div class='answer'>
+            <input type="radio" name='questionThreeAnswer' value='boolean'>boolean
+          </div>
+          <div class='answer'>
+            <input type="radio" name='questionThreeAnswer' value='strings'>strings
+          </div>
+        </div>
+
+        <div id='questionsIncomplete'></div>
+
+        <div>
+          <button type='submit' class="submit">SUBMIT</button>
+        </div>
+      </form>
+
+      <div id='result'></div>
     </div>
-      <br>
-      <div class="jumbotron">
-      <h2>Here are the questions in Javascript</h2>
+    <script
+src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>
 
-    </form>
-    <form id="questions" name="questions">
-    <p><strong>1.What outcome do you get in Javascript after dividing a number by zero</strong></p>
-    <input type="radio" id="dot" name="question1" value="NaN">NaN<br>
-    <input type="radio" id="dot" name="question1" value="zero">zero<br>
-    <input type="radio" id="dot" name="question1" value="infinity">infinity<br>
-    <input type="radio" id="dot" name="question1" value="ten">ten<br>
-    <p><strong>2.Which one of the following is not a rule to name variables in javascript</strong></p>
-    <input type="radio" id="dot" name="question2" value="variables are written in lower camelcase">variables are written in lower camelcase<br>
-    <input type="radio" id="dot" name="question2" value="variables can be used in arithmetic">variables can be used in arithmetic<br>
-    <input type="radio" id="dot" name="question2" value="variables are written in uppercase">variables are written in uppercase<br>
-    <input type="radio" id="dot" name="question2" value="variables are set using the var keyword">variables are set using the var keyword<br>
-    <p><strong>3.Which variable is not correct</strong></p>
-    <input type="radio" id="dot" name="question3" value="firstName">firstName<br>
-    <input type="radio" id="dot" name="question3" value="First Name">First Name<br>
-    <input type="radio" id="dot" name="question3" value="firstName">firstName<br>
-    <input type="radio" id="dot" name="question3" value="FIRSTname">FIRSTname<br>
-    <p><strong>4.Which one of the following is not a datatype</strong></p>
-    <input type="radio" id="dot" name="question4" value="numbers">numbers<br>
-    <input type="radio" id="dot" name="question4" value="string">string<br>
-    <input type="radio" id="dot" name="question4" value="vowels">vowels<br>
-    <input type="radio" id="dot" name="question4" value="boolean">boolean<br>
-    <br>
-    <input id="button" type="button" value="submit" onclick"check();">
-  </form>
-</div>
-</div>
 
+     <script src="js/scripts.js"></script>
   </body>
-</html>
+  </html>
