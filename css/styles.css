@@ -5,16 +5,6 @@
   background-size: cover;
   color:red;
   }
-/* #questions{
-  border:colourless;
-  padding:35px;
-  align-self: center;
-  text-align: center;
-  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt4vbvYtIKDwIEXfiDdAzQjZf1L_IZe9-6XP29avNYXhyRLPA6");
-  margin-top: 12%;
-  margin-left: 20%;
-  margin-right:20%;
-} */
  #questions{
   text-align: left;
 }
