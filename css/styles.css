@@ -1,16 +1,28 @@
  body{
-  background-image:url("https://www.codesmite.com/images/thumbnails/freebies/3.png");
+  background-image:url("http://www.happycoding.us/wp-content/uploads/2016/05/KidsTechnology.jpg");
+  background-size: 35%, 30%;
   background-repeat: no-repeat;
   background-size: cover;
   color:red;
   }
-/* .about{
+/* #questions{
   border:colourless;
   padding:35px;
   align-self: center;
   text-align: center;
   background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt4vbvYtIKDwIEXfiDdAzQjZf1L_IZe9-6XP29avNYXhyRLPA6");
   margin-top: 12%;
-  margin-left: 30%;
+  margin-left: 20%;
   margin-right:20%;
-}  */
+} */
+ #questions{
+  text-align: left;
+}
+#questionsIncomplete{
+  color:black;
+}
+.submit:hover {
+box-shadow:green;
+background:greenyellow;
+color:black;
+}

@@ -1,14 +1,3 @@
-// var answers= ["infinity","variables are written in uppercase","firstName","vowels"]
-// var question=[1,2,3,4]
-// var average=0
-//
-// $("document").ready(function(){
-//   (#buttonAnswer).onclick(function((question){
-//     for(i=0;i<questions.length;i++){
-//       var option=parseInt($("form input"()))
-//     }
-//   })
-// })
 var answers = ["infinity","firstName","vowels"];
 var pointPerCorrect = 25;
 
