@@ -5,7 +5,8 @@ This website contain questions on Javascript and has a lot to help programmers r
 ## Setup/Installation Requirements
 * Github
 * Browser
-##BDD
+## BDD
+
 | Behaviour   |      Input     |  Output |
 |----------|:-------------:|------:|
 | User answers all questions wrong | 0,0,0 |    your score is 0% |
