@@ -6,9 +6,13 @@ This website contain questions on Javascript and has a lot to help programmers r
 * Github
 * Browser
 ##BDD
-In the quiz board one is encouraged to answer all the questions without failure:
-* If you don't answer all the questions your work will not be submitted.
-* If you don't score all the questions right your marks will be displayed.
+| Behaviour   |      Input     |  Output |
+|----------|:-------------:|------:|
+| User answers all questions wrong | 0,0,0 |    your score is 0% |
+| User answers 1 question correct | 25,0,0 |    your score is 33% |
+| User answers 2 questions correct | 25,25,0 |  your score is 66% |
+| User answers all questions correct | 25,25,25 | your score is 100% |
+| If the user does not answer a question, it is marked as wrong | 25,25,25"" | your score is 100% |
 ## Known Bugs
 Many websites still in progress too help the programmers develop more appealing websites.
 ## Technologies Used
