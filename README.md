@@ -20,7 +20,7 @@ HTML
 CSS
 Javascript
 ## Installation.
-* Install the Javascript-quiz board by cloning this repository:https://github.com/aluoch-sheila/Javascript-quiz-board.git
+* Install the Javascript-quiz board by cloning this repository:https://aluoch-sheila.github.io/Javascript-quiz-board/
 * You need a smartphone, laptop, desktop or any gadget screen accessible to internet
 * Open from any linient browser.
 ## Support and contact details
